@@ -1,0 +1,1277 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    }
+    
+  .Body{
+    background-color: green;
+    color: black;
+   
+    
+    }
+
+.Animation_Text{
+ animation-name: TextAnimate;
+ animation-duration: 6s;
+ animation-iteration-count: linear infinite;
+ animation-timing-function: steps(3);
+
+}
+
+
+@keyframes TextAnimate2{
+  0%{
+   width: calc(0ch);
+   margin-top: 0;
+   margin-left: 0;
+   display: none;
+  }
+  100%{
+   width: calc(58ch);
+
+  }
+}
+
+
+/*-------------------------
+      Animation loader
+---------------------------*/
+
+.Animation_Card{
+ height: 340px;
+ width: 400px;
+ margin: 0 auto;
+ background-color: green;
+ border-radius: 5px;
+ border: 5px solid orange;
+ margin-top: 140px;
+
+}
+
+.Animation_Box{
+ animation-name: Habib;
+ animation-duration: 2s;
+ animation-iteration-count: infinite;
+
+}
+
+
+
+@keyframes Habib{
+0%{
+background-color: orange;
+
+}
+5%{
+background-color: orangered;
+
+}
+
+10%{
+background-color: blue;
+
+}
+
+20%{
+ 
+background-color: skyblue;
+
+}
+
+30%{
+ 
+background-color: yellow;
+
+}
+
+40%{ 
+background-color: gold;
+
+}
+45%{
+ 
+background-color: red;
+
+}
+
+50%{
+ 
+background-color: brown;
+
+	
+}
+
+60%{
+background-color: pink;
+
+}
+65%{
+background-color: purple;
+
+}
+70%{
+ 
+background-color: black;
+
+	
+}
+
+80%{
+ 
+background-color: lightgreen;
+
+	
+}
+85%{
+ 
+background-color: lightblue;
+
+	
+}
+90%{
+ 
+background-color: grey;
+
+	
+}
+95%{
+ 
+background-color: violet;
+
+	
+}
+
+100%{
+ 
+background-color: chocolate;
+
+	
+}
+
+
+}
+
+
+
+/*---Right left bottom design-----*/
+
+.Animation_Box:nth-child(1){
+ height: 20px;
+ width: 20px;
+ background-color: blue;
+ display: block;
+ margin-left: 10px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 0.1s;
+ }
+
+.Animation_Box:nth-child(2){
+ height: 20px;
+ width: 20px;
+ background-color: darkgreen;
+ display: block;
+ margin-left: 10px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 0.2s;
+
+ }
+
+
+.Animation_Box:nth-child(3){
+ height: 20px;
+ width: 20px;
+ background-color: purple;
+ display: block;
+ margin-left: 10px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 0.3s;
+
+ }
+
+
+.Animation_Box:nth-child(4){
+ height: 20px;
+ width: 20px;
+ background-color: chartreuse;
+ display: block;
+ margin-left: 10px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 0.4s;
+	
+ }
+
+.Animation_Box:nth-child(5){
+ height: 20px;
+ width: 20px;
+ background-color: cadetblue;
+ display: block;
+ margin-left: 10px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 0.5s;
+ 	
+ }
+
+.Animation_Box:nth-child(6){
+ height: 20px;
+ width: 20px;
+ background-color: skyblue;
+ display: block;
+ margin-left: 10px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 0.6s;
+
+ }
+
+.Animation_Box:nth-child(7){
+ height: 20px;
+ width: 20px;
+ background-color: slateblue;
+ display: block;
+ margin-left: 10px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 0.7s;
+
+ }
+
+.Animation_Box:nth-child(8){
+ height: 20px;
+ width: 20px;
+ background-color: navy;
+ display: block;
+ margin-left: 10px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 0.8s;
+
+ }
+
+
+.Animation_Box:nth-child(9){
+ height: 20px;
+ width: 20px;
+ background-color: navajowhite;
+ display: block;
+ margin-left: 10px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 0.9s;
+
+ }
+
+.Animation_Box:nth-child(10){
+ height: 20px;
+ width: 20px;
+ background-color: gainsboro;
+ display: block;
+ margin-left: 10px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 1.0s;
+
+ }
+
+.Animation_Box:nth-child(11){
+ height: 20px;
+ width: 20px;
+ background-color: royalblue;
+ display: block;
+ margin-left: 10px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 1.2s;
+ 	
+ }
+
+
+/*-----right up-------*/
+.Animation_Box:nth-child(12){
+ height: 20px;
+ width: 20px;
+ background-color: forestgreen;
+ display: block;
+ margin-left: 40px;
+ margin-top: -320px;
+ border-radius: 5px;
+ animation-delay: 1.2s;
+
+ }
+
+.Animation_Box:nth-child(13){
+ width: 20px;
+ height: 20px;
+ background-color: magenta;
+ display: block;
+ margin-left: 70px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 1.3s;
+
+ }
+
+
+.Animation_Box:nth-child(14){
+ width: 20px;
+ height: 20px;
+ background-color: honeydew;
+ display: block;
+ margin-left: 100px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 1.4s;
+
+ }
+
+.Animation_Box:nth-child(15){
+ width: 20px;
+ height: 20px;
+ background-color: hotpink;
+ display: block;
+ margin-left: 130px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 1.5s;
+
+ }
+
+.Animation_Box:nth-child(16){
+ width: 20px;
+ height: 20px;
+ background-color: darkkhaki;
+ display: block;
+ margin-left: 160px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 1.6s;
+ 
+}
+.Animation_Box:nth-child(17){
+ width: 20px;
+ height: 20px;
+ background-color: yellow;
+ display: block;
+ margin-left: 190px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 1.7s;
+
+ }
+
+.Animation_Box:nth-child(18){
+ width: 20px;
+ height: 20px;
+ background-color: plum;
+ display: block;
+ margin-left: 220px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 1.8s;
+	
+ }
+
+.Animation_Box:nth-child(19){
+ width: 20px;
+ height: 20px;
+ background-color: yellow;
+ display: block;
+ margin-left: 250px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 1.9s;
+
+ }
+
+.Animation_Box:nth-child(20){
+ width: 20px;
+ height: 20px;
+ background-color: rosybrown;
+ display: block;
+ margin-left: 280px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 2.0s;
+
+ }
+
+
+.Animation_Box:nth-child(21){
+ width: 20px;
+ height: 20px;
+ background-color: grey;
+ display: block;
+ margin-left: 310px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 2.1s;
+
+ }
+
+.Animation_Box:nth-child(22){
+ width: 20px;
+ height: 20px;
+ background-color: burlywood;
+ display: block;
+ margin-left: 340px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 2.2s;
+
+ } 
+
+.Animation_Box:nth-child(23){
+ width: 20px;
+ height: 20px;
+ background-color: brown;
+ display: block;
+ margin-left: 370px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 2.3s;
+
+ } 
+
+
+.Animation_Box:nth-child(24){
+ width: 20px;
+ height: 20px;
+ background-color: chartreuse;
+ display: block;
+ margin-left: 370px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 2.4s;
+ 
+ } 
+
+.Animation_Box:nth-child(25){
+ width: 20px;
+ height: 20px;
+ background-color: cyan;
+ display: block;
+ margin-left: 370px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 2.5s;
+	
+ } 
+
+
+.Animation_Box:nth-child(26){
+ width: 20px;
+ height: 20px;
+ background-color: crimson;
+ display: block;
+ margin-left: 370px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 2.6s;
+}
+
+.Animation_Box:nth-child(27){
+ width: 20px;
+ height: 20px;
+ background-color: cornsilk;
+ display: block;
+ margin-left: 370px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 2.7s;
+
+ }
+
+.Animation_Box:nth-child(28){
+ width: 20px;
+ height: 20px;
+ background-color: cornflowerblue;
+ display: block;
+ margin-left: 370px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 2.8s;
+
+ }
+
+.Animation_Box:nth-child(29){
+ width: 20px;
+ height: 20px;
+ background-color: coral;
+ display: block;
+ margin-left: 370px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 2.9s;
+
+ }
+
+.Animation_Box:nth-child(30){
+ width: 20px;
+ height: 20px;
+ background-color: violet;
+ display: block;
+ margin-left: 370px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 3.0s;
+ 	
+ }
+
+.Animation_Box:nth-child(31){
+ width: 20px;
+ height: 20px;
+ background-color: blueviolet;
+ display: block;
+ margin-left: 370px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 3.1s;
+
+ }
+
+.Animation_Box:nth-child(32){
+ width: 20px;
+ height: 20px;
+ background-color: seagreen;
+ display: block;
+ margin-left: 370px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 3.2s;
+
+ }
+
+.Animation_Box:nth-child(33){
+ width: 20px;
+ height: 20px;
+ background-color: sienna;
+ display: block;
+ margin-left: 370px;
+ margin-top: 10px;
+ border-radius: 5px;
+ animation-delay: 3.3s;
+
+ }
+
+/*-----------right top------------*/
+.Animation_Box:nth-child(34){
+ width: 20px;
+ height: 20px;
+ background-color: snow;
+ display: block;
+ margin-left: 40px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 3.4s;
+
+ }
+
+
+.Animation_Box:nth-child(35){
+ width: 20px;
+ height: 20px;
+ background-color: skyblue;
+ display: block;
+ margin-left: 70px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 3.5s;
+
+ }
+
+.Animation_Box:nth-child(36){
+ width: 20px;
+ height: 20px;
+ background-color: silver;
+ display: block;
+ margin-left: 100px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 3.6s;
+
+ }
+
+.Animation_Box:nth-child(38){
+ width: 20px;
+ height: 20px;
+ background-color: gold;
+ display: block;
+ margin-left: 130px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 3.7s;
+
+ }
+
+.Animation_Box:nth-child(39){
+ width: 20px;
+ height: 20px;
+ background-color: magenta;
+ display: block;
+ margin-left: 160px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 3.8s;
+
+ }
+
+
+.Animation_Box:nth-child(40){
+ width: 20px;
+ height: 20px;
+ background-color: cornsilk;
+ display: block;
+ margin-left: 190px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 3.9s;
+
+ }
+
+.Animation_Box:nth-child(41){
+ width: 20px;
+ height: 20px;
+ background-color: azure;
+ display: block;
+ margin-left: 220px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 4.0s;
+
+ }
+
+.Animation_Box:nth-child(42){
+ width: 20px;
+ height: 20px;
+ background-color: sandybrown;
+ display: block;
+ margin-left: 250px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 4.1s;
+
+}
+
+.Animation_Box:nth-child(43){
+ width: 20px;
+ height: 20px;
+ background-color: whitesmoke;
+ display: block;
+ margin-left: 280px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 4.2s;
+	
+}
+
+.Animation_Box:nth-child(44){
+ width: 20px;
+ height: 20px;
+ background-color: aliceblue;
+ display: block;
+ margin-left: 310px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 4.3s;
+	
+ }
+
+.Animation_Box:nth-child(45){
+ width: 20px;
+ height: 20px;
+ background-color: aqua;
+ display: block;
+ margin-left: 340px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 4.4s;
+
+ }
+
+.Animation_Box:nth-child(46){
+ width: 20px;
+ height: 20px;
+ background-color: red;
+ display: block;
+ margin-left: 370px;
+ margin-top: -20px;
+ border-radius: 5px;
+ animation-delay: 4.5s;
+	
+}
+.Amn_H1{
+margin-top: -230px;
+margin-left: 115px;
+color: white;
+
+
+}
+.Amn_H3{
+margin-top: 20px;
+color: white;
+text-align: center;
+
+}
+.H2{
+color: teal;
+
+}
+
+
+
+/*----------------Animation  END-------------*/
+
+    .Main_Container{
+    max-width: 985px;
+    margin: 0px auto;
+    background-color: gainsboro;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: none;
+
+    }
+    
+    /*--------------------
+      Header Info Design.
+    ----------------------*/
+    
+    .Image_Logo{
+      height: 120px;
+      width: 130px;
+      outline: 4px solid teal;
+      outline-offset: 4px;
+      border-radius: 2px;
+        
+     }
+        
+    .Header_Left_Card{
+     padding: 30px 25px;
+     height: auto;
+     width: 220px;
+     float: left;
+
+    }
+    
+    .Header_Middle_Card{
+     padding: 20px 0px;
+     height: auto;
+     width: 220px;
+     float: left; 
+     margin-left: -85px;   
+    
+    }
+    
+    .Header_Right_Card{
+     float: right;
+     padding: 20px 20px;
+    
+     }
+    
+     .Header_Right_Card ul li{
+      list-style-type: none;
+      color: darkgreen;
+      font-weight: bold;
+    
+     }
+
+	  .Header_A{
+      list-style-type: none;
+      text-decoration: none;
+      color: darkgreen;
+      font-weight: bold;
+    
+     }
+	 
+	
+	 .Header_A:hover{
+      text-decoration: underline;
+      color: cyan;
+      font-weight: bold;
+    
+    }
+
+    .Hr{
+    border: 3px solid grey;
+    border-bottom: none;
+    width: 98%;
+    margin: 0px auto;
+    
+    }
+    
+    .Hr_All{
+      border: 2px solid grey;
+      border-bottom: none;
+      width: 98%;
+      margin-left: 0.7%;
+      
+    }
+      
+    .Clear{
+     clear: both;
+    
+    }
+    
+    /*................
+      Personal Info
+    ..................*/
+    .Personal_Left{
+      width: 35%;
+      float: left;
+      padding: 10px 20px;
+
+    
+    }
+    
+    .Personal_Right{
+      width: 65%;
+      float: right;
+      padding: 20px 20px;
+      margin-top: -50px;
+      font-size: 19px;
+      line-height: 1.8;
+      word-spacing: 5px;
+
+    }
+
+    .Personal_H1{
+      font-weight: bold;
+      font-size: 24px;
+      color: teal;
+      
+    }
+      
+    
+    /*................
+       Contact Info
+    ..................*/
+    
+    .Contact_Left{
+      width: 35%;
+      float: left;
+      padding: 20px 20px;
+    
+    }
+    .Contact_Right{
+      width: 65%;
+      float: right;
+      padding-right: 0px;
+      margin-top: -40px;
+      font-size: 19px;
+      line-height: 1.8;
+      
+    }
+    
+    .Span_Light{
+    font-weight: bold;
+    color: teal;
+    
+    }
+    .Contact_H1{
+    font-weight: bold;
+    font-size: 24px;
+    
+    }
+ .Headind_H1{
+  color: teal;
+
+  }
+
+  .SubHeadH4{
+   color: teal;
+   font-weight: bolder;
+   font-size: 25px;
+   margin-bottom: 30px;
+
+  }
+    
+    /*---------------------
+         Education Info
+    -----------------------*/
+    .Education_Left{
+     width: 35%;
+     float: left;
+     padding: 20px 20px;
+    
+
+    }
+    
+    .Education_Right{
+      width: 65%;
+      float: right;
+      padding-right: 5px;
+      margin-top: -40px;
+      font-size: 19px;
+      line-height: 1.8;
+      word-spacing: 5px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    }  
+    
+    .Edu_Temp_Left{
+    width: 20%;
+    padding-left: 20px;
+    float: left;
+    font-size: 19px;
+    line-height: 1.8;
+    word-spacing: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+    
+    .Edu_Temp_Right{
+      width: 80%;
+      margin-top: -18px;
+      float: right;
+      font-size: 19px;
+      line-height: 1.8;
+      word-spacing: 5px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+    }
+    .Education_H1{
+     font-weight: bold;
+     font-size: 24px;
+    
+    }
+    
+    
+    /*---------------
+      Skills Info
+    -----------------*/
+    .Skills_Left{
+      width: 35%;
+      padding-left: 20px;
+      float: left;
+    
+    }
+    .Skills_Right{
+      width: 65%;
+      padding-left: 20px;
+      padding-right: 10px;
+      padding-bottom: 30px;
+      margin-top: -18px;
+      float: right;
+      font-size: 19px;
+      line-height: 1.8;
+      word-spacing: 5px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+    .Skills_H3{
+    background-color: teal;
+    color: whitesmoke;
+    text-align: center;
+    padding: 6px 20px;
+    font-weight: bold;
+    
+    
+    }
+
+    .Skills_Temp_Left{
+     width: 25%;
+     padding-left: 20px;
+     float: left;
+    
+    }
+
+    .Skills_Temp_Right{
+      width: 75%;
+      padding-left: 20px;
+      padding-right: 10px;
+      padding-bottom: 30px;
+      margin-top: -18px;
+      float: right;
+      font-size: 19px;
+      line-height: 1.8;
+      word-spacing: 5px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    }
+    
+     p{
+     color: black;
+     font-weight: lighter;
+      
+     }
+      
+     .Skills_Card{
+       height: auto;
+       width: 280px;
+       border: 3px solid teal;
+       border-radius: 5px;
+       float: right;
+       padding-bottom: 15px;
+       margin-top: 30px;
+       margin-left: -10px;
+       font-size: 18px;
+       line-height: 1.8;
+       word-spacing: 5px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    }
+
+    .Skills_Ol{
+     margin-left: 25px;
+     margin-top: 10px;
+     line-height: 2;
+     font-weight: bold;
+     color: saddlebrown;
+     
+
+    }
+    
+    
+    /*..........................
+      Reference Design Works
+    ............................*/
+    .MyVideo{
+     height: 240px;
+     width: 410px;
+     background-color: black;
+     border: 8px solid rgb(255, 41, 3);
+     border-radius: 20px;
+    
+    }
+
+    .Reference_Left{
+      width: 20%;
+      padding-left: 20px;
+      float: left;
+    
+    }
+
+    .Reference_Right{
+     width: 80%;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-bottom: 30px;
+     margin-top: -18px;
+     float: right;
+     font-size: 19px;
+     line-height: 1.8;
+     word-spacing: 5px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+    }
+    
+    .Reference_Temp_Left{
+      width: 35%;
+      padding-left: 20px;
+      float: left;
+    
+    }
+    
+    .Reference_Temp_Right{
+      width: 65%;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 110px;
+      margin-top: -18px;
+      float: right;
+      font-size: 19px;
+      line-height: 1.8;
+      word-spacing: 5px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    
+    }
+
+    .Reference_H1{
+    font-weight: bold;
+    color: teal;
+    font-size: 24px;
+    
+    }
+    /*--------------------------
+      Footer Part Design Works
+    ----------------------------*/
+    .Footer_Card{
+    width: 96%;
+    background-color: teal;
+    margin-left: 2%;
+    padding-top: 30px;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    }
+
+    .Footer_A{
+     text-decoration: none;
+     background-color: black;
+     color: whitesmoke;
+     font-weight: bold;
+     padding: 5px;
+     border: 1px solid grey;
+     border-radius: 3px;
+     box-shadow: 1px 1px 3px black;
+     margin-left: 20px; 
+     
+     }
+     .Footer_A:hover{
+      text-decoration: none;
+      background-color: navy;
+      color: wheat;
+      font-weight: bold;
+      padding: 5px;
+      transition-duration: 63ms;
+      border: 1px solid grey;
+      border-radius: 3px;
+      box-shadow: 1px 1px 3px black;
+      margin-left: 20px; 
+      
+      }
+
+  .Footer_P{
+   padding: 20px;
+   padding-top: 20px;
+   font-weight: bold;
+   color: wheat;
+
+   }
+
+    /*---------------------------
+    ...Responsive Design Works...
+    .............................*/
+    @media only screen and (max-width:860px){
+      .Personal_Left{
+        width: 25%;
+        float: left;
+        padding: 20px 10px;
+      
+         }
+      
+      .Personal_Right{
+        width: 55%;
+        float: right;
+        padding: 20px 10px;
+        margin-top: -45px;
+      
+         }
+    
+      .Personal_H1{
+        font-weight: bold;
+        font-size: 24px;
+        color: teal;
+        margin-top: -50px;
+        
+        } 
+    
+        /*Contact Res Info*/
+        .Contact_Left{
+          width: 25%;
+          float: left;
+          padding: 20px 10px;
+        
+        }
+        .Contact_Right{
+          width: 55%;
+          float: right;
+          padding-right: 5px;
+          margin-top: 25px;
+          
+        }
+        
+        .Span_Light{
+        font-weight: bold;
+        color: teal;
+        
+        }
+        .Contact_H1{
+        font-weight: bold;
+        font-size: 24px;
+        
+        }
+        
+       /*Education works*/
+        .Education_Left{
+          width: 35%;
+          float: left;
+          padding: 20px 10px;
+          
+         }
+          
+         .Education_Right{
+            width: 65%;
+            float: right;
+            padding-right: 5px;
+            margin-top: -40px;
+            
+          }
+          
+          .Edu_Temp_Left{
+          width: 35%;
+          float: left;
+      
+          }
+          
+          .Edu_Temp_Right{
+            width: 65%;
+            float: right;
+            
+          }
+          
+     /*Reference Works*/
+      .MyVideo{
+        height: 130px;
+        width: 250px;
+        background-color: black;
+        border: 8px solid orangered;
+        border-radius: 20px;
+        position: relative;
+        left: -85px;
+        
+
+         }
+
+        .Reference_Left{
+          width: 35%;
+          padding-left: 10px;
+          float: left;
+          
+          }
+
+         .Reference_Right{
+           width: 65%;
+           padding-left: 10px;
+           padding-right: 10px;
+           padding-bottom: 30px;
+           margin-top: -18px;
+           float: right;
+          
+          }
+
+         .Reference_H1{
+          font-weight: bold;
+          color: teal;
+          font-size: 24px;
+          
+          } 
+    
+          .Reference_Temp_Left{
+            width: 35%;
+            padding-left: 20px;
+            float: left;
+            position: relative;
+            left: -130px;
+            
+          }
+          
+          .Reference_Temp_Right{
+            width: 65%;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 110px;
+            margin-top: -18px;
+            float: right;
+          
+           }
+
+    }
